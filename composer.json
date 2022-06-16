@@ -1,0 +1,21 @@
+{
+    "name": "twentytwo-labs/mongo-pack",
+    "type": "symfony-pack",
+    "license": "MIT",
+    "description": "A pack for mongo in Symfony app",
+    "authors": [
+        {
+            "name": "Thibaut ALGRIN",
+            "email": "algrin.thibaut@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-amqp": "*",
+        "alcaeus/mongo-php-adapter": "*",
+        "doctrine/mongodb-odm-bundle": "*",
+        "doesntmattr/mongodb-migrations-bundle": "*"
+    },
+    "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "*"
+    }
+}
