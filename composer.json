@@ -12,10 +12,9 @@
     "require": {
         "ext-amqp": "*",
         "alcaeus/mongo-php-adapter": "*",
-        "doctrine/mongodb-odm-bundle": "*",
-        "doesntmattr/mongodb-migrations-bundle": "*"
+        "doctrine/mongodb-odm-bundle": "*"
     },
     "require-dev": {
-        "doctrine/doctrine-fixtures-bundle": "*"
+        "doctrine/data-fixtures": "*"
     }
 }
